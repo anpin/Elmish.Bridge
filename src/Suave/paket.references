@@ -1,2 +1,4 @@
 group Suave
-    Suave
+  Suave
+group Suave_ns2.0
+  Suave
