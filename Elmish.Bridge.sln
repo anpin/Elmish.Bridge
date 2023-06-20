@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{377B89A1-7918-4BCF-8953-5150270B8D4F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.Client", "src\Client\Elmish.Bridge.Client.fsproj", "{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.DotnetClient", "src\DotnetClient\Elmish.Bridge.DotnetClient.fsproj", "{27628F9A-11C6-4FD1-A94D-1DD425798415}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.Fabulous", "src\Fabulous\Elmish.Bridge.Fabulous.fsproj", "{6E5B871D-ED13-468E-A1BA-4670790D2468}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.Giraffe", "src\Giraffe\Elmish.Bridge.Giraffe.fsproj", "{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.RPC", "src\RPC\Elmish.Bridge.RPC.fsproj", "{544C9EAA-C282-4B41-A01F-EC128102179B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.Server", "src\Server\Elmish.Bridge.Server.fsproj", "{81E8897A-7C5E-4C3B-95B6-1914742CD85C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Elmish.Bridge.Suave", "src\Suave\Elmish.Bridge.Suave.fsproj", "{0AC30368-AF14-454E-8868-9C36BA1C33A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27628F9A-11C6-4FD1-A94D-1DD425798415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27628F9A-11C6-4FD1-A94D-1DD425798415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27628F9A-11C6-4FD1-A94D-1DD425798415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27628F9A-11C6-4FD1-A94D-1DD425798415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5B871D-ED13-468E-A1BA-4670790D2468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5B871D-ED13-468E-A1BA-4670790D2468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5B871D-ED13-468E-A1BA-4670790D2468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5B871D-ED13-468E-A1BA-4670790D2468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544C9EAA-C282-4B41-A01F-EC128102179B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544C9EAA-C282-4B41-A01F-EC128102179B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544C9EAA-C282-4B41-A01F-EC128102179B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544C9EAA-C282-4B41-A01F-EC128102179B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E8897A-7C5E-4C3B-95B6-1914742CD85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E8897A-7C5E-4C3B-95B6-1914742CD85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E8897A-7C5E-4C3B-95B6-1914742CD85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E8897A-7C5E-4C3B-95B6-1914742CD85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC30368-AF14-454E-8868-9C36BA1C33A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC30368-AF14-454E-8868-9C36BA1C33A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC30368-AF14-454E-8868-9C36BA1C33A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC30368-AF14-454E-8868-9C36BA1C33A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AE0149B-82C3-4D7A-B4CB-B7888E0DF672} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{27628F9A-11C6-4FD1-A94D-1DD425798415} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{6E5B871D-ED13-468E-A1BA-4670790D2468} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{27F450D4-10C8-42B9-A0B9-DDAB33BC8BFB} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{544C9EAA-C282-4B41-A01F-EC128102179B} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{81E8897A-7C5E-4C3B-95B6-1914742CD85C} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+		{0AC30368-AF14-454E-8868-9C36BA1C33A4} = {377B89A1-7918-4BCF-8953-5150270B8D4F}
+	EndGlobalSection
+EndGlobal
