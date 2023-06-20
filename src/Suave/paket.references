@@ -2,3 +2,5 @@ group Suave
   Suave
 group Suave_ns2.0
   Suave
+group Shared
+  FSharp.Core

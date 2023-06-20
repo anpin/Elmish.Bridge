@@ -1,5 +1,7 @@
 namespace Elmish.Bridge
 
+open System.Text
+
 [<RequireQualifiedAccess>]
 module Suave =
     open Suave
@@ -34,7 +36,7 @@ module Suave =
                                 buffer
                                 |> List.rev
                                 |> Array.concat
-                                |> UTF8.toString
+                                |> Encoding.UTF8.GetString
                                 |> sender
                                 buffer <- []
                         | (Close, _, _) ->
