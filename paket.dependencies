@@ -47,8 +47,8 @@ group Suave_ns2.0
   framework: netstandard2.0
   condition: netstandard2_0
   storage: none
-  git https://github.com/anpin/suave ns2.0 build: "rm -rf nugets && dotnet tool restore && dotnet paket restore && dotnet build Suave.sln -c Release && dotnet paket pack nugets --version 2.7.0-ns", Packages: /nugets/, OS: mono
-  nuget Suave
+  source ../nugets
+  nuget Suave 2.7.0-ns
   source https://api.nuget.org/v3/index.json
   nuget FSharp.Core
 

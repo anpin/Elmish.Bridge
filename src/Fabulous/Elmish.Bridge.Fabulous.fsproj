@@ -8,7 +8,7 @@
     <PackageIconUrl></PackageIconUrl>
     <PackageTags>fsharp;xamarin;fabulous;elmish;remoting;rpc;webserver</PackageTags>
     <Authors>Diego Esmerio</Authors>
-    <Version>5.0.0-rc</Version>
+    <VersionPrefix>5.0.0-rc</VersionPrefix>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
